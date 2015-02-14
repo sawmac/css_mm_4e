@@ -1,0 +1,44 @@
+html {
+  padding-top: 25px;
+  background-image: url(images/bg_page.png);
+}
+body {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  background-color: #E1EDEB;
+}
+h1 {
+  font-family: 'Varela Round', 'Arial Black', serif;
+  font-weight: normal;
+  color: #6A94CC;
+  font-size: 3em;
+  margin: 0;
+}
+p, address {
+  font-family: "Palatino Linotype", Baskerville, serif;
+  font-size: 1.25em;
+  color: #616161;
+  line-height: 150%;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+h2 {
+  color: #B1967C;
+  font-family: 'Varela Round', 'Arial Black', serif;
+  font-weight: normal;
+  font-size: 2.2em;
+  border-bottom: 2px white solid;
+  background: url(images/head-icon.png) no-repeat 10px 10px;
+  padding: 0 0 2px 60px;
+  margin: 0; 
+}
+.intro {
+  color: #666666;
+  font-family: 'Varela Round', Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-left: 0;
+  margin-bottom: 25px;
+}
