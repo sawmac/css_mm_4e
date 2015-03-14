@@ -1,0 +1,82 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+/* end reset browser styles */
+html {
+ background-color: rgb(253,248,171);
+}
+body {
+  background-color: rgb(255,255,255);
+  border: 3px solid rgb(75,75,75);
+  box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+  max-width: 760px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+h1 {
+ font-size: 2.75em;
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-weight: normal;
+ text-align:center;
+ letter-spacing: 1px;
+ color: rgb(133,161,16);
+ text-transform: uppercase;
+ background-color: rgb(226,235,180);
+ padding: 5px 15px 2px 15px;
+ margin: 0 -15px 20px -15px;
+}
+h2 {
+ font-size: 1.5em;
+ font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+ color: rgb(249,107,24);
+ border-top: 2px dotted rgb(141,165,22);
+ border-bottom: 2px dotted rgb(141,165,22);
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin: 15px 0 5px 0;
+ overflow: hidden;
+}
+.sidebar {
+ width: 30%;
+ float: right;
+ margin: 10px;
+ background-color: rgb(250,235,199);
+ padding: 10px 20px; 
+ border: 1px dotted rgb(252,101,18); 
+ border-top: 20px solid rgb(252,101,18);
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+.sidebar h2 {
+ border: none;
+ margin-top: 0;
+ padding: 0;
+}

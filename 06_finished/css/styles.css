@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansRegular.woff2') format('woff2'),
+       url('fonts/PTSansRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansItalic.woff2') format('woff2'),
+       url('fonts/PTSansItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansBold.woff2') format('woff2'),
+       url('fonts/PTSansBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansBoldItalic.woff2') format('woff2'),
+       url('fonts/PTSansBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+} 
+
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+html {
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 62.5%;
+  background: rgb(225,238,253) url(../images/bg_body.png) repeat-x;
+}
+.main {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 4px solid white;
+  background: transparent url(../images/bg_banner.jpg) no-repeat;
+}
+.main h1 {
+  color: rgb(249,212,120);
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  text-shadow: 4px 4px 6px rgba(0,0,0,.75);
+}
+.main h1 strong {
+  font-size: 150px;
+  color: white;
+  line-height: 1;
+  margin-right: -.5em;
+}
+.main h2 {
+  font: normal 3.5em "Slabo 27px", Garamond, Times, serif;
+  color: rgb(37,76,143);
+  border-bottom: 1px solid rgb(200,200,200);
+  margin-top: 25px;
+}
+.main h3 {
+  color: rgb(241,47,6);
+  font-size: 1.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.main p {
+  font-size: 1.8em;
+  line-height: 1.5;
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.main p::first-line {
+  font-weight: bold;
+  color: rgb(153,153,153);
+}
+.main ul {
+  margin: 50px 0 25px 50px;
+  width: 25%;
+  float: right;
+}
+.main li {
+  color: rgb(32,126,191);
+  font-size: 1.5em;
+  margin-bottom: 7px;
+ }
+.main .byline {
+  font-size: 1.6em;
+  margin: 5px 0 25px 50px;
+}
+.main .byline strong {
+    color: rgb(32,126,191);
+    text-transform: uppercase;
+    margin-left: 11px;
+}
+
+
