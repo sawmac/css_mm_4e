@@ -1,0 +1,97 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+body {
+	font-size: 62.5%;
+}
+.content {
+	margin-left: 15px;
+	margin-top: 15px;
+	border: 1px dashed #999;
+	border-right: none;
+	border-bottom: none;
+}
+p.caption {
+	font-size: 1.3em;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+.gallery .figure p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+	line-height: normal;
+}
+
+
+h1 {
+	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	border-bottom: 1px dashed #999;
+	padding: 5px 0 5px 8px;
+	color: #14556b;
+}
+p {
+	font: 1.6em/160% Georgia, "Times New Roman", Times, serif;
+	margin: 10px 8px;
+}
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #666666;
+	margin-left: 0px;
+	padding-left: 8px;
+	border-top: 1px dashed #999;
+	clear: both;
+}
+
+figure img {
+  border: 1px solid #666;
+  background-color: #FFF;
+  padding: 4px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+
+figcaption {
+  font: 1.1em Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+figure {
+  display: inline-block;
+  vertical-align: top;
+  width: 210px;
+  margin: 0 10px 10px 10px;
+}
+
+

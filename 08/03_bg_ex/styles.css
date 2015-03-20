@@ -1,0 +1,103 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+.wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+    overflow: hidden; /* contain float */
+}
+
+.main {
+	float: right;
+	width: 565px;
+	margin-right: 15px;
+	padding-top: 25px;
+}
+
+.announcement {
+	margin-right: 600px;
+	margin-left: 20px;
+	
+}
+
+.copyright {
+	clear: both;
+	font: bold 12px Tahoma, Geneva, sans-serif;
+	color: #65747E;
+	padding: 5px;
+  margin: 0 15px;
+	border: 1px dotted #98AFBE;
+  border-left: none;
+  border-right: none;
+}
+
+
+.banner h1 {
+	font: normal 48px Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+  color: #272D32;
+}
+
+.main h2 {
+	font: 24px Tahoma, Geneva, sans-serif;
+	margin-bottom: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.main p {
+	font: 14px Tahoma, Geneva, sans-serif;
+	color: #323A3F;
+	margin-bottom: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.announcement h2 {
+	font: italic bold normal 20px Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	color: #323A3F;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 18px;
+}
+.announcement ul {
+	font: 14px Tahoma, Geneva, sans-serif;
+}
+
+/* add your styles here */
+
+
+
+
+
+
+
+
+
