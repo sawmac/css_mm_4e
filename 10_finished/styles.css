@@ -1,0 +1,138 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+
+header {
+	background: rgb(255,214,94); 
+	background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0));  
+  padding-top: 20px;
+}
+.container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 0 30px 0;	
+	text-align: right;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	z-index: 100;
+	left: 0;	
+}
+header h1 {
+	font-size: 2.2em;
+	margin: 0 0 10px 0;
+	color: rgb(255,255,255);
+}
+
+nav {
+	margin-left: 200px;	
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: #ff932d;
+	border-radius: 5px;
+	border: 1px solid #c95e00;
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+/* your styles here */
+nav a {
+  -webkit-transition: -webkit-transform .5s,
+                      background-color 1s ease-in .5s;
+  transition: transform .5s,
+              background-color 1s ease-in .5s;
+}
+nav a:hover {
+	background-color: red;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+@-webkit-keyframes logo {
+  from {
+    -webkit-transform: rotate(0) scale(.5);
+    left: 120%;
+  }
+  50% {
+    -webkit-transform: rotate(-720deg) scale(.5);
+    left: 0;
+  }
+
+  to {
+    -webkit-transform: rotate(0) scale(1);
+  }
+}
+@keyframes logo {
+  from {
+    transform: rotate(0) scale(.5);
+    left: 120%
+  }
+
+  50% {
+    transform: rotate(-720deg) scale(.5);
+    left: 0;
+  }
+
+  to {
+    transform: rotate(0) scale(1);
+  }
+}
+
+.logo {
+    -webkit-animation: logo 3s;
+    animation: logo 3s;
+}
+
+
+
+
+
+
+
+
