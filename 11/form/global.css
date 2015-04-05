@@ -1,0 +1,46 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+
+/* end reset browser styles */
+
+body {
+	width: 760px;
+	margin: 0 auto;	
+	background-color: rgb(0,51,102);
+	color: rgb(255,255,255);
+}
+
+h1 {
+	font-size: 2em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	border-bottom: dotted 2px rgba(255,255,255,.5);
+	padding-bottom: 4px;	
+	margin: 25px 0;
+}
+
+p {
+	margin-bottom: 25px;	
+}
