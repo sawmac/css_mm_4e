@@ -1,0 +1,137 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* web fonts */
+
+@font-face {
+    font-family: 'Titillium';
+    src: url('fonts/TitilliumText22L001-webfont.eot');
+    src: url('fonts/TitilliumText22L001-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitilliumText22L001-webfont.woff') format('woff'),
+         url('fonts/TitilliumText22L001-webfont.ttf') format('truetype'),
+         url('fonts/TitilliumText22L001-webfont.svg#TitilliumText22LThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium';
+    src: url('fonts/TitilliumText22L003-webfont.eot');
+    src: url('fonts/TitilliumText22L003-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitilliumText22L003-webfont.woff') format('woff'),
+         url('fonts/TitilliumText22L003-webfont.ttf') format('truetype'),
+         url('fonts/TitilliumText22L003-webfont.svg#TitilliumText22LRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium';
+    src: url('fonts/TitilliumText22L005-webfont.eot');
+    src: url('fonts/TitilliumText22L005-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitilliumText22L005-webfont.woff') format('woff'),
+         url('fonts/TitilliumText22L005-webfont.ttf') format('truetype'),
+         url('fonts/TitilliumText22L005-webfont.svg#TitilliumText22LBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+	max-width: 1024px;
+	margin: 0 auto;	
+}
+header h1 {
+	font: 700 72px Titillium, Arial, sans-serif;
+	color: rgb(232,113,35);
+	text-shadow: 0 0 5px white,
+	             3px 3px 5px rgba(0,0,0,.5);
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+nav li {
+	display: inline;	
+}
+nav a {
+	display: inline-block;
+	padding: 9px 20px 5px 20px;
+	border-radius:20px;
+	text-decoration: none;	
+	font-family: Titillium, Arial, sans-serif;
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0,1);
+	text-transform:uppercase;
+	font-size: .9em;
+	letter-spacing: .1em;
+	background-color: rgb(232,113,35);
+	background: -webkit-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: -moz-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: -o-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	border: 1px solid rgb(232,113,35);
+	margin-right: 5px;
+}
+figcaption strong {
+	font-weight: 700;
+	display: block;
+}
+footer .copyright {
+	font-family: Titillium, Arial, sans-serif;
+	font-weight: 700;
+	color: white;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+/* add tutorial styles here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
