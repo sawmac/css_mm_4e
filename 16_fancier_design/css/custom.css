@@ -1,0 +1,131 @@
+/* Mobile first queries */
+
+body {
+  background-color: black;
+}
+
+.button {
+  background-color: rgba(255,255,255,.5);
+}
+
+.button:hover {
+  background-color: rgba(255,255,255,.3);
+}
+
+.header {
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  padding-top: 30px;
+}
+
+.header .button {
+  border: none;
+}
+.nav .button {
+  width: 48%;
+  margin: 2px 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo {
+  font-weight: 600;
+  color: rgb(255, 209, 143);
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 10px;
+  z-index: 100;
+}
+
+.nav {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.action {
+  text-align: center;
+}
+
+.action h1 {
+  margin-bottom: 0;
+}
+
+.info {
+  background-color: white;
+}
+.info h2 {
+  text-align: center;
+}
+
+.info .button {
+  background-color: rgb(215, 143, 97);
+  border: none;
+  color: white;
+}
+
+.info .button:hover {
+  background-color: rgb(255, 207, 130);
+  border: none;
+}
+
+.footer {
+  color: rgba(255,255,255,.8);
+  padding-top: 25px;
+}
+
+.social-media-list li {
+  list-style: none;
+  margin: 0;
+}
+.social-media-list a {
+  text-decoration: none;
+}
+.icon > svg {
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .info {
+    padding-top: 20px;
+  }
+  .nav {
+    
+  }
+  .nav .button {
+    width: auto;
+    padding: 0 30px;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .action {
+    padding: 75px 0 25px;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .header {
+    padding: 50px 0;
+  } 
+  .logo {
+    font-size: 3rem;
+  }
+}
+
+

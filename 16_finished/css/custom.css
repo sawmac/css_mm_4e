@@ -1,0 +1,100 @@
+/* Mobile first queries */
+/* applies to ALL widths */
+.header {
+  padding: 30px 0 20px 0;
+  margin-bottom: 25px;
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+}
+.logo {
+  font-weight: 600;
+  color: rgb(255, 209, 143);
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 10px;
+  z-index: 100;
+}
+.nav {
+  text-align: right;
+}
+.nav .button {
+  width: 48%;
+  margin: 2px 0;
+}
+.button {
+  background-color: rgba(255,255,255,.5);
+}
+.button:hover {
+  background-color: rgba(255,255,255,.3);
+}
+.action {
+  text-align: center;
+  padding-top: 37px;
+}
+.action h1 {
+  margin: 0;
+}
+.action h2 {
+  margin: 0 0 20px 0;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+
+
+/* Larger than mobile */
+/* applies to all widths 400px and greater */
+@media (min-width: 400px) {
+ 
+}
+
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width: 550px) {
+  .header {
+    padding: 40px 0 50px 0;
+  }
+  .logo {
+    position: static;
+    background-color: transparent;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .nav .button {
+    width: auto;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 4.2rem;
+  }
+}
+
+/* Larger than tablet */
+/* applies to all widths 750px and greater */
+@media (min-width: 750px) {
+  .logo {
+    font-size: 3rem;
+    position: relative;
+    top: 5px;
+  }
+}
+
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+@media (min-width: 1000px) {
+  
+}
+
+/* Larger than Desktop HD */
+/* applies to 1200px and greater */
+@media (min-width: 1200px) {
+
+}
