@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Flexbox</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<style>
+body {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgba(0,0,0,.2);
+  padding: 20px;
+}
+.container div {
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container div:nth-of-type(1n+2) {
+  
+}
+
+.container div:nth-of-type(2) {
+  background-color: rgba(0,0,0,.6);
+}
+
+.container div:nth-of-type(3) {
+  background-color: rgba(0,0,0,.8);
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div>A flex item</div>
+  <div>Another flex  klja sdfklj skdajf klsadj kljsa dffklj sadfklj aslkdjf lkasjd flkjas dflkj asdlfkj aslkdfjf lkasdjf lkjsad flkj</div>
+  <div>A third flex item</div>
+</div>
+</body>
+</html>

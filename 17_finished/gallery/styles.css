@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+h1 {
+  border-bottom: 1px solid #CCC;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.image {
+  border-radius: 10px;
+  background-color: #333;
+  padding: 10px;
+  margin: 5px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+
+.image.wide {
+  flex: 2 2 400px;
+}
+
+.image img {
+  border-radius: 5px;
+}
+
+.image figcaption {
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+  border-top: 1px solid rgba(255,255,255,.5);
+  padding-top: 3px;
+}
+
+

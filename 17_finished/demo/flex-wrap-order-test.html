@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flex Basis</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: black;
+}
+.container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  min-height: 200px;
+  background-color: rgba(0,0,0,.2);
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.9rem;
+}
+.container div {
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.main {
+  flex: 2 1 200px;
+}
+.side1 {
+  background-color: rgba(0,0,0,.6);
+  flex: 1 1 100px;
+  order: -1;
+}
+.side2 {
+  background-color: rgba(0,0,0,.8);
+  flex: 1 1 100px;
+}
+
+
+</style>
+</head>
+<body>
+<pre><code>flex-flow: row wrap</code></pre>
+<div class="container container-1-1-400">
+  <div class="main">
+    <h1>Main</h1>
+    <pre><code>Main</code></pre></div>
+  <div class="side1">
+    <h1>Sidebar 1</h1>
+    <pre><code>Sidebar 1</code></pre></div>
+  <div class="side2">
+    <h1>Sidebar 2</h1>
+    <pre><code>Sidebar 2</code></pre></div>
+</div>
+</body>
+</html>

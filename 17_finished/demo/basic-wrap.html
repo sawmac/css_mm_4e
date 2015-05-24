@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Flexbox</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgba(0,0,0,.2);
+  padding: 20px;
+}
+.container div {
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+code {
+  font-size: 1.2rem;
+}
+
+p {
+  color: rgba(255,255,255,.5);
+}
+
+.prop .sidebar1 {
+  flex: 1 1 200px;
+}
+.prop .sidebar2 {
+  flex: 1 1 200px;
+}
+.prop .main {
+  flex: 2 1 400px;
+}
+
+.noprop .sidebar1 {
+  flex: 1 1 200px;
+}
+.noprop .sidebar2 {
+  flex: 1 1 200px;
+}
+.noprop .main {
+  flex: 2 1 200px;
+}
+
+</style>
+</head>
+<body>
+<div class="container prop">
+  <div class="sidebar1">
+    <h2>Sidebar 1</h2>
+    <pre><code>flex: 1 1 200px;</code></pre>
+    <p>Viverra ut torquent id elementum, risus erat vitae dui vestibulum. Turpis tempus netus non, elit sociis ac praesent tellus, nunc vivamus, vitae convallis erat, nec quisque at. Natoque hac accumsan faucibus, proin felis elit arcu torquent eu, convallis commodo aliquet vestibulum cursus ut ut.</p>
+  </div>
+  <div class="main">
+  <h2>Main</h2>
+  <pre><code>flex: 2 1 400px;</code></pre>
+  <p>Not a lot to see here</p>
+  </div>
+  <div class="sidebar2">
+    <h2>Sidebar 2</h2>
+    <pre><code>flex: 1 1 200px;</code></pre>
+      <p>Viverra ut torquent id elementum, risus erat vitae dui vestibulum. Turpis tempus netus non, elit sociis ac praesent tellus, nunc vivamus, vitae convallis erat, nec quisque at. Natoque hac accumsan faucibus</p>
+    </div>
+</div>
+<div class="container noprop">
+  <div class="sidebar1">
+    <h2>Sidebar 1</h2>
+    <pre><code>flex: 1 1 200px;</code></pre>
+    <p>Viverra ut torquent id elementum, risus erat vitae dui vestibulum. Turpis tempus netus non, elit sociis ac praesent tellus, nunc vivamus, vitae convallis erat, nec quisque at. Natoque hac accumsan faucibus, proin felis elit arcu torquent eu, convallis commodo aliquet vestibulum cursus ut ut.</p>
+  </div>
+  <div class="main">
+  <h2>Main</h2>
+  <pre><code>flex: 2 1 200px;</code></pre>
+  <p>Not a lot to see here</p>
+  </div>
+  <div class="sidebar2">
+    <h2>Sidebar 2</h2>
+    <pre><code>flex: 1 1 200px;</code></pre>
+      <p>Viverra ut torquent id elementum, risus erat vitae dui vestibulum. Turpis tempus netus non, elit sociis ac praesent tellus, nunc vivamus, vitae convallis erat, nec quisque at. Natoque hac accumsan faucibus</p>
+    </div>
+</div>
+</body>
+</html>

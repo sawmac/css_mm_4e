@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Flexbox -- justify-content</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<style>
+body {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: .75rem;
+  color: white;
+}
+.container {
+  display: flex;
+  height: 200px;
+  background-color: rgba(0,0,0,.2);
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.start {
+    justify-content: flex-start;
+}
+.end {
+    justify-content: flex-end;
+}
+.center {
+    justify-content: center;
+}
+.between {
+    justify-content: space-between;
+}
+.around {
+    justify-content: space-around;
+}
+.container div {
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.container div:nth-of-type(1n+2) {
+  margin-left: 20px;
+}
+
+.container div:nth-of-type(2) {
+  background-color: rgba(0,0,0,.6);
+}
+
+.container div:nth-of-type(3) {
+  background-color: rgba(0,0,0,.8);
+}
+</style>
+</head>
+<body>
+<div class="container start">
+  <div>
+    <h2>A flex item</h2>
+    <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus </p>
+  </div>
+  <div><h2>Another flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p></div>
+  <div><h2>A third flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel. </p></div>
+</div>
+<div class="container end">
+  <div>
+    <h2>A flex item</h2>
+    <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus </p>
+  </div>
+  <div><h2>Another flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p></div>
+  <div><h2>A third flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel. </p></div>
+</div>
+<div class="container center">
+  <div>
+    <h2>A flex item</h2>
+    <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus </p>
+  </div>
+  <div><h2>Another flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p></div>
+  <div><h2>A third flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel. </p></div>
+</div>
+<div class="container between">
+  <div>
+    <h2>A flex item</h2>
+    <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus </p>
+  </div>
+  <div><h2>Another flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p></div>
+  <div><h2>A third flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel. </p></div>
+</div>
+<div class="container around">
+  <div>
+    <h2>A flex item</h2>
+    <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus </p>
+  </div>
+  <div><h2>Another flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p></div>
+  <div><h2>A third flex item</h2>
+   <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel. </p></div>
+</div>
+</body>
+</html>

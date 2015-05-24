@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flex Basis</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 200px;
+  background-color: rgba(0,0,0,.2);
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 1000px;
+  color: white;
+  font-size: 1.9rem;
+}
+.container div {
+  flex: 1;
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.container-1-1-400 div:nth-of-type(1) {
+  flex: 1 1 400px;
+}
+.container-1-1-400 div:nth-of-type(2) {
+  background-color: rgba(0,0,0,.6);
+  flex: 1 1 400px;
+}
+.container-1-1-400 div:nth-of-type(3) {
+  background-color: rgba(0,0,0,.8);
+   flex: 1 1 400px;
+}
+.container-1-4-400 div:nth-of-type(1) {
+  flex: 1 1 400px;
+}
+.container-1-4-400 div:nth-of-type(2) {
+  background-color: rgba(0,0,0,.6);
+  flex: 1 4 400px;
+}
+.container-1-4-400 div:nth-of-type(3) {
+  background-color: rgba(0,0,0,.8);
+   flex: 1 1 400px;
+}
+.container-1-0-400 div:nth-of-type(1) {
+  flex: 1 0 400px;
+}
+.container-1-0-400 div:nth-of-type(2) {
+  background-color: rgba(0,0,0,.6);
+  flex: 1 0 400px;
+}
+.container-1-0-400 div:nth-of-type(3) {
+  background-color: rgba(0,0,0,.8);
+   flex: 1 0 400px;
+}
+.wrap {
+  flex-flow: row wrap;
+}
+
+.small {
+  width: 500px;
+}
+
+</style>
+</head>
+<body>
+<pre><code>flex-flow: row nowrap</code></pre>
+<div class="container container-1-1-400">
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+</div>
+<div class="container container-1-4-400">
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+  <div><pre><code>flex: 1 4 400px;</code></pre></div>
+  <div><pre><code>flex: 1 4 400px;</code></pre></div>
+</div>
+<div class="container container-1-0-400">
+  <div><pre><code>flex: 1 0 400px;</code></pre></div>
+  <div><pre><code>flex: 1 0 400px;</code></pre></div>
+  <div><pre><code>flex: 1 0 400px;</code></pre></div>
+</div>
+<pre><code>flex-flow: row wrap</code></pre>
+<div class="wrap container container-1-1-400">
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+</div>
+<div class="wrap container container-1-0-400 small">
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+  <div><pre><code>flex: 1 1 400px;</code></pre></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  background-color: black;
+}
+h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+pre {
+  background-color: rgb(255, 221, 227);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+code {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.container-code {
+  padding: 20px 50px 1px;
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  margin: 0 auto;
+  background-color: black;
+  padding: 0 40px;
+}
+
+.flex-item {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.start .flex-container {
+  display: block;
+}
+
+.flex-item h2 {
+ margin-bottom: auto;
+}
+
+.example1 .flex1 {
+  flex: 1;
+}
+.example1 .flex2 {
+  flex: 1;
+}
+.example1 .flex3 {
+  flex: 1;
+}
+
+.example2 .flex1 {
+  flex: 2;
+}
+.example2 .flex2 {
+  flex: 1;
+}
+.example2 .flex2 p {
+  margin-top: auto;
+}
+.example2 .flex3 {
+  flex: 1;
+}
+
+.example3 .flex-container {
+  align-items: flex-start;
+}
+
+.example3 .flex1 {
+  flex: 2;
+}
+.example3 .flex2 {
+  flex: 1;
+}
+.example3 .flex3 {
+  flex: 1;
+}
+
+.example4 .flex-container {
+  align-items: center;
+}
+.example4 .flex1 {
+  flex: 2;
+}
+.example4 .flex2 {
+  flex: 1;
+}
+.example4 .flex3 {
+  flex: 1;
+}
+
+.example5 .flex-container {
+  flex-flow: row wrap;
+}
+.example5 .flex1 {
+  flex: 1 1 300px;
+}
+.example5 .flex2 {
+  flex: 1 1 300px;
+}
+.example5 .flex3 {
+  flex: 2 2 600px;
+}
+
+.example6 .flex-container {
+  flex-flow: row wrap-reverse;
+}
+.example6 .flex1 {
+  flex: 1 1 300px;
+}
+.example6 .flex2 {
+  flex: 1 1 300px;
+}
+.example6 .flex3 {
+  flex: 2 2 600px;
+}

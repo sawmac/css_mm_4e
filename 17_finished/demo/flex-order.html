@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Flexbox -- order</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<style>
+body {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgba(0,0,0,.2);
+  padding: 20px 0 20px 20px;
+  margin-bottom: 5px;
+  height: 400px;
+}
+
+.container div {
+  flex: 1;
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+
+h1 {
+  font-size: 9rem;
+  margin: 0;
+}
+.one {
+  order: 1;
+}
+.two {
+  order: 2;
+}
+.three {
+  order: 3;
+}
+.four {
+  order: 4;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div>
+    <h1>1</h1>
+  </div>
+  <div><h1>2</h1>
+   </div>
+  <div ><h1>3</h1>
+  </div>
+   <div><h1>4</h1>
+   </div>
+</div>
+<div class="container">
+  <div class="four">
+    <h1>1</h1>
+    <h2>order: 4</h2>
+  </div>
+  <div  class="three"><h1>2</h1>
+  <h2>order: 3</h2>
+   </div>
+  <div  class="one"><h1>3</h1>
+  <h2>order: 1</h2>
+  </div>
+   <div  class="two"><h1>4</h1>
+   <h2>order: 2</h2>
+   </div>
+</div>
+</body>
+</html>

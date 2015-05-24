@@ -1,0 +1,80 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.1em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav a {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; 
+  width: 100%;
+  padding: 8px 2%;
+  color: #555;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; 
+}
+
+@media (min-width: 500px) {
+  nav {
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  nav a {
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 2px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+  }
+}
+@media (min-width: 760px) {
+  body {
+    padding-top: 10px;
+  }
+  nav {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav a {
+    -webkit-flex: 0 0 130px;
+        -ms-flex: 0 0 130px;
+            flex: 0 0 130px;
+  }
+  nav .home {
+    background-image: url(imgs/home.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    border: none;
+    margin-right: auto;
+  }
+}

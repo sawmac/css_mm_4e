@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flex Basis</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 1.9rem;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 200px;
+  background-color: rgba(0,0,0,.2);
+}
+.container div {
+  flex: 1;
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+}
+
+.container-var-124 div:nth-of-type(1) {
+  flex: 1 1 300px;
+}
+
+.container-var-124 div:nth-of-type(2) {
+  background-color: rgba(0,0,0,.6);
+  flex: 3 1 200px;
+}
+
+.container-var-124 div:nth-of-type(3) {
+  background-color: rgba(0,0,0,.8);
+   flex: 4 1 100px;
+}
+</style>
+</head>
+<body>
+<div class="container container-var-124">
+  <div><pre><code>flex: 1 1 300px;</code></pre></div>
+  <div><pre><code>flex: 3 1 200px;</code></pre></div>
+  <div><pre><code>flex: 4 1 100px;</code></pre></div>
+</div>
+</body>
+</html>

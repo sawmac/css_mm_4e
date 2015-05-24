@@ -1,0 +1,59 @@
+.nav, .boxes, .footer, .footer form{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.nav {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.nav a {
+  width: 23%;
+}
+.boxes div {
+  -webkit-flex: 1 1 250px;
+  flex: 1 1 250px;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px 10px 0 10px;
+  background-color: rgba(0,0,0,.1);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+}
+.boxes .more {
+  margin-top: auto;
+}
+.footer .copyright {
+  -webkit-flex: 2 1 500px;
+  flex: 2 1 500px;
+  margin-right: 30px;
+}
+.footer .signup {
+  -webkit-flex: 1 1 250px;
+  flex: 1 1 250px;
+}
+.signup label {
+  width: 100%;
+}
+.signup input[type="email"] {
+  border-radius: 4px 0 0 4px;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.signup input[type="submit"] {
+  border-radius: 0 4px 4px 0;
+  padding: 0 10px;
+}
+@media (max-width: 500px) {
+  .nav {
+    -webkit-flex-flow: column;
+    flex-flow: column;
+  }
+  .nav a {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+}
