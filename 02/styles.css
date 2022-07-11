@@ -18,10 +18,28 @@ h1 {
   margin: 0;
 
 }
-p {
+p, address {
+  font-family: "Palatino Linotype", Baskerville, serif;
   font-size: 1.25em;
-  color: #515151;
+  color: #616161;
   line-height: 150%;
   margin-top: 10px;
   margin-left: 60px;
+}
+h2 {
+  color:#b1967c;
+  font-family: 'Varela Round', 'Arial Black', serif;
+  font-weight: normal;
+  font-size: 2.2em;
+  border-bottom: 2px white solid;
+  background: url(images/head-icon.png) no-repeat 10px 10px;
+  padding: 0 0 2px 60px;
+  margin: 0;
+}
+.intro {
+  color:#666666;
+  font-family: 'Varela Round', Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-left: 0;
+  margin-bottom: 25px:
 }
