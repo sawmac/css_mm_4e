@@ -1,0 +1,24 @@
+html {
+  padding-top: 25px;
+  background-image: url(images/bg_page.png);
+}
+body {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  background-color: #e1edeb;
+}
+h1 {
+   color: #6a94cc;
+   font-size: 3em;
+   margin: 0;
+}
+p {
+  font-size: 1.25em;
+  color: #515151;
+  line-height: 150%;
+  margin-top: 10px;
+  margin-left: 60px;
+}
