@@ -11,9 +11,12 @@ body {
   background-color: #e1edeb;
 }
 h1 {
-   color: #6a94cc;
-   font-size: 3em;
-   margin: 0;
+  font-family: 'Varela Round', 'Arial Black', serif;
+  font-weight: normal;
+  color: #6a94cc;
+  font-size: 3em;
+  margin: 0;
+
 }
 p {
   font-size: 1.25em;
